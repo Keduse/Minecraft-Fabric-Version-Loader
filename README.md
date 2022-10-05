@@ -4,6 +4,8 @@ Enables users to switch between Minecraft Fabric mod versions with ease. Allows 
 # How to use
 First, ensure that you have [FabricMC](https://fabricmc.net/) installed and have run Minecraft on your computer at least once.
 
+**IF YOU ALREADY HAVE MODS DOWNLOADED, BACK THEM UP IN A SEPARATE FOLDER** (Don't do as I did and unintentionally delete them)
+
 Next, create a folder named `.mods` in your `.minecraft` folder.
 
 Then, place your "modpacks" inside the `.mods` folder labeled by which version they belong to.
