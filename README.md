@@ -13,7 +13,7 @@ Like so:
 
 ![image](https://user-images.githubusercontent.com/43939306/193961854-1269aaa1-6d42-48ee-b0bb-ed03fab4c490.png)
 
-Finally, run the program and type a number to select a version.
+Finally, run [the program](https://github.com/Keduse/Minecraft-Fabric-Version-Loader/blob/main/FabricVersion.py) and type a number to select a version.
 
 ![image](https://user-images.githubusercontent.com/43939306/193962466-e9496f2a-b8c5-4427-a623-13671cb81069.png)
 
