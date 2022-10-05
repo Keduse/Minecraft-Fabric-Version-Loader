@@ -1,5 +1,5 @@
 # Minecraft-Fabric-Version-Loader
-This is a python script that enables users to switch between Minecraft Fabric mod versions with ease. Allows for having different mods between versions.
+In favor of using a separate .minecraft directory, this is a python script that enables users to switch between Minecraft Fabric mod versions with ease. Allows for having different mods between versions.
 
 # How to use
 First, ensure that you have [FabricMC](https://fabricmc.net/) installed and have run Minecraft on your computer at least once.
