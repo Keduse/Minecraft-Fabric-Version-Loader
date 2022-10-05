@@ -5,6 +5,13 @@ import os, shutil
 path = "C:\\Users\\"+os.getlogin()+"\\AppData\\Roaming\\.minecraft\\.mods\\"
 live = "C:\\Users\\"+os.getlogin()+"\\AppData\\Roaming\\.minecraft\\mods\\"
 
+# If .mods doesn't exist, exit program to remind user to create a backup and folder
+if not os.path.exists(path):
+	print("Please create a folder named '.mods' within '.minecraft' before running this script.")
+	print("Also remember to create backups.")
+	input("You may close the window or press enter.")
+	Sys.exit()
+
 # Remove old mods folder to make room for new
 if os.path.exists(live):
     shutil.rmtree(live)
