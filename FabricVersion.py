@@ -1,5 +1,5 @@
 # author: Keduse
-# date: 2022/10/04
+# date: 2024/06/24
 import os, shutil
 
 path = "C:\\Users\\"+os.getlogin()+"\\AppData\\Roaming\\.minecraft\\.mods\\"
@@ -11,10 +11,6 @@ if not os.path.exists(path):
 	print("Also remember to create backups.")
 	input("You may close the window or press enter.")
 	Sys.exit()
-
-# Remove old mods folder to make room for new
-if os.path.exists(live):
-    shutil.rmtree(live)
 
 # List versions inside .mods directory
 print("Available Minecraft Mod Versions")
@@ -37,6 +33,10 @@ while True:
 			print("Try again, but a number 1-"+str(i))
 	except ValueError as error:
 		print("Try again, but with a number.")
+
+# Remove old mods folder to make room for new
+if os.path.exists(live):
+    shutil.rmtree(live)
 
 # Find version within mods directory and copy to loading mods
 chosenVer = files[int(ver)-1]
